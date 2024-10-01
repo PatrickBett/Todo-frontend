@@ -17,7 +17,7 @@ function Signup() {
     e.preventDefault();
 
     try {
-      const res = await api.post("https://todo-backend-uufz.onrender.com/api/user/register/", {
+      const res = await api.post("api/user/register/", {
         email,
         username,
         password,
@@ -38,7 +38,7 @@ function Signup() {
         <h3 className="text-center">Sign Up</h3>
         <form className="shadow rounded mt-2 px-5 py-4" onSubmit={handleSignup}>
           <div className="form-group mt-2">
-            <label> Email</label>
+            <label> Emails</label>
             <input
               type="text"
               className="form-control"
