@@ -1,0 +1,28 @@
+.navbar-toggler {
+    border: none !important;
+}
+
+#nav-link{
+    font-weight: bolder;
+}
+#nav-link:hover {
+    color:red;
+}
+/* navbar.css */
+.navbar {
+    background-color: #82c3fc;
+    /* Dark background color */
+}
+
+
+
+.navbar-toggler-icon {
+    color: #ffffff;
+    /* White color for toggler icon */
+}
+
+/* Darken the toggler icon when hovered for better visibility */
+.navbar-toggler:hover .navbar-toggler-icon {
+    filter: brightness(0.1);
+    /* Darken the icon on hover */
+}

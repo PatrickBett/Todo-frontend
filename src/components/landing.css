@@ -1,0 +1,18 @@
+/* landing.css */
+#landing-page-img {
+    /* Set the background image and adjust other properties as needed */
+    background-image: url('https://t3.ftcdn.net/jpg/01/10/01/90/240_F_110019055_JBbr778hMxpwuwDaFszyQNck5PhBYHli.jpg');
+    background-size: cover;
+    /* Cover the entire background */
+    background-position: center;
+    /* Center the background image */
+    background-repeat: no-repeat;
+    /* Prevent the background image from repeating */
+    height: 100vh;
+    /* Set the height of the container to fill the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Additional styles for other content within the container */
+}
