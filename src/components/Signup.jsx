@@ -38,7 +38,7 @@ function Signup() {
         <h3 className="text-center">Sign Up</h3>
         <form className="shadow rounded mt-2 px-5 py-4" onSubmit={handleSignup}>
           <div className="form-group mt-2">
-            <label> Emails</label>
+            <label> Email</label>
             <input
               type="text"
               className="form-control"
