@@ -17,7 +17,7 @@ function Signup() {
     e.preventDefault();
 
     try {
-      const res = await api.post("api/user/register/", {
+      const res = await api.post("https://todo-backend-uufz.onrender.com/api/user/register/", {
         email,
         username,
         password,
